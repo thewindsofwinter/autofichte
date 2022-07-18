@@ -17,7 +17,7 @@ sess = gpt2.start_tf_sess()
 num_steps = 100
 
 # This is the path to the text file we want to use for training.
-text_path = "proverbs.txt"
+text_path = "data/fichte.txt"
 
 # Pass in the session and the
 gpt2.finetune(sess,
