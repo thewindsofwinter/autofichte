@@ -1,8 +1,6 @@
 import gpt_2_simple as gpt2
 import os
 
-# The name of the pretrained GPT2 model we want to use it can be 117M, 124M, or 355M
-# 124M is about as big as I can fit on my 1080Ti.
 model_name = "124M"
 
 # Download the model if it is not present
