@@ -13,10 +13,10 @@ sess = gpt2.start_tf_sess()
 
 # Define the number of steps we want our model to take we want this to be such that
 # we only pass over the data set 1-2 times to avoid overfitting.
-num_steps = 100
+num_steps = 10
 
 # This is the path to the text file we want to use for training.
-text_path = "data/fichte.txt"
+text_path = "data/parody.txt"
 
 # Pass in the session and the
 gpt2.finetune(sess,
